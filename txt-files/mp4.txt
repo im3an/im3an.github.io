@@ -1,0 +1,22 @@
+MEDIA ERROR ACCES DENIED ERRORCODE_0124224
+MEDIA ERROR ACCES DENIED ERRORCODE_0163232
+
+PS C: \Users\0453.subject03> Get-PnPConnection
+
+ConnectionType:                                 TenantAdmin
+InitializationType:                             Unknown
+Scopes:                                         xxxxxxxxxxxxxxxxxx
+PSCredential:                                   System.Management.Automation.PSCredential
+ClientId:                                       31359c7f-bd7e-475c-86db-fdb8c937548e
+ClientSecret:                                   xxxxxxxxxx
+ApplicationInsights:                            PnP.PowerShell.ALC.ApplicationInsights
+Url:                                            xxxxxxxxxxxxxxx033
+TenantAdminUrl:                                 https://xxxxxxxxxxxxxxxxxx.admin.sharepoint.com/
+Certificate:                                    
+DeleteCertificateFromCacheOnDisconnect:         False
+Context:                                        
+Tenant:                                         Facility A033
+AzureEnvironment:                               Production
+
+PS C: \Users\0453.subject03> Get-archive.mp4 -r CurrentWeb
+Get-archive: Access denied. Check for the required permissions.
